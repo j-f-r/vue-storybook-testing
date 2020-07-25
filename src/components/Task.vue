@@ -25,9 +25,9 @@ export default {
       default: () => ({
         id: '',
         state: '',
-        title: '',
-      }),
-    },
+        title: ''
+      })
+    }
   },
   computed: {
     taskClass() {
@@ -35,7 +35,7 @@ export default {
     },
     isChecked() {
       return this.task.state === 'TASK_ARCHIVED'
-    },
-  },
+    }
+  }
 }
 </script>
